@@ -4,7 +4,7 @@ import sys
 import threading
 
 class Servidor():
-    def __init__(self, host = "148.201.188.147", port="4000"):
+    def __init__(self, host = "148.201.188.178", port="4000"):
 
         self.clientes = []
 
