@@ -26,7 +26,7 @@ class Servidor():
         try:
             while True:
                 msg = input(">")
-                if msg == "salir":
+                if msg == "Bye":
                     break
             self.sock.close()
             sys.exit()

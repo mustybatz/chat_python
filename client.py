@@ -18,7 +18,7 @@ class Cliente():
         #Hilo que mantendrá vivo el hilo principal y nos permitirá escribir los mensajes.
         while True:
             msg = input('>')
-            if msg != 'salir':
+            if msg != 'Bye':
                 self.send_msg(msg)
             else:
                 self.sock.close()
