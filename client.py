@@ -5,7 +5,7 @@ import threading
 
 class Cliente():
 
-    def __init__(self, host="148.201.121.12", port=4000):
+    def __init__(self, host="148.201.188.147", port=4000):
         #conexión del cliente al servidor
         self.sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
         self.sock.connect((str(host), int(port)))
